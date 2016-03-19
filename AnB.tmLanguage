@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>anb</string>
+	</array>
+	<key>name</key>
+	<string>AnB</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>\#.+</string>
+			<key>name</key>
+			<string>comment.line.number-sign.anb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(\*-&gt;&gt;\*?|\*?-&gt;\*?)</string>
+			<key>name</key>
+			<string>keyword.control.anb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Protocol|Knowledge|Types|Actions|Abstration|Goals)\b</string>
+			<key>name</key>
+			<string>entity.name.function.anb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(where|authenticates|on|weakly|secret|between)\b</string>
+			<key>name</key>
+			<string>keyword.other.anb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(Agent|Number|SeqNumber|PublicKey|Symmetric_key|Function|Untyped)\b</string>
+			<key>name</key>
+			<string>storage.type.anb</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(inv|exp|xor)\b</string>
+			<key>name</key>
+			<string>keyword.operator.anb</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.anb</string>
+	<key>uuid</key>
+	<string>f060e6bd-f3be-4155-be93-68acf3ea99e5</string>
+</dict>
+</plist>

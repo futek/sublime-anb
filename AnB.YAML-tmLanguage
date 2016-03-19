@@ -1,0 +1,18 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+name: AnB
+scopeName: source.anb
+fileTypes: [anb]
+uuid: f060e6bd-f3be-4155-be93-68acf3ea99e5
+patterns:
+  - name: comment.line.number-sign.anb
+    match: \#.+
+  - name: keyword.control.anb
+    match: (\*->>\*?|\*?->\*?)
+  - name: entity.name.function.anb
+    match: \b(Protocol|Knowledge|Types|Actions|Abstration|Goals)\b
+  - name: keyword.other.anb
+    match: \b(where|authenticates|on|weakly|secret|between)\b
+  - name: storage.type.anb
+    match: \b(Agent|Number|SeqNumber|PublicKey|Symmetric_key|Function|Untyped)\b
+  - name: keyword.operator.anb
+    match: \b(inv|exp|xor)\b

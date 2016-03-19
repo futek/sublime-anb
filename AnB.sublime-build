@@ -1,0 +1,4 @@
+{
+    "selector": "source.anb",
+    "cmd": ["ofmc", "$file"]
+}
