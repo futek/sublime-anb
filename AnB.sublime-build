@@ -1,4 +1,4 @@
 {
     "selector": "source.anb",
-    "cmd": ["ofmc", "$file"]
+    "cmd": ["ofmc", "--numSess", "2", "$file"],
 }
